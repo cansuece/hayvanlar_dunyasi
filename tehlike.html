@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehlike Altındaki Hayvanlar - Hayvanlar Dünyası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Hayvanlar Dünyası</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="evcil.html">Evcil Hayvanlar</a></li>
+                        <li><a href="yabani.html">Yabani Hayvanlar</a></li>
+                        <li><a href="tehlike.html">Tehlike Altındakiler</a></li>
+                        <li><a href="koruma.html">Hayvan Hakları</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h2>Tehlike Altındaki Hayvanlar</h2>
+            <p>Nesli tükenme tehlikesiyle karşı karşıya olan değerli türlerimiz</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container page-content">
+                        <!-- Filter Section -->
+            <div class="filter-container">
+                <h3>🔍 Tehlike Seviyesine Göre Filtrele</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tümü</button>
+                    <button class="filter-btn" data-filter="critical" data-tooltip="Kritik tehlike">Kritik</button>
+                    <button class="filter-btn" data-filter="endangered" data-tooltip="Tehlikede">Tehlikede</button>
+                    <button class="filter-btn" data-filter="vulnerable" data-tooltip="Hassas">Hassas</button>
+                    <button class="filter-btn" data-filter="mammal" data-tooltip="Memeliler">Memeliler</button>
+                    <button class="filter-btn" data-filter="marine" data-tooltip="Deniz canlıları">Deniz</button>
+                </div>
+            </div>
+
+<div class="intro-section">
+                <h3>Neden Tehlike Altındalar?</h3>
+                <p>
+                    Dünya üzerinde binlerce hayvan türü nesli tükenme tehlikesiyle karşı karşıyadır. 
+                    Habitat kaybı, iklim değişikliği, kaçak avcılık, kirlilik ve insan faaliyetleri 
+                    bu türlerin hayatta kalmasını tehdit ediyor. IUCN (Uluslararası Doğayı Koruma Birliği) 
+                    Kırmızı Listesi'ne göre türler tehlike seviyelerine göre sınıflandırılır: 
+                    Kritik Tehlike (Critically Endangered), Nesli Tehlikede (Endangered) ve 
+                    Hassas (Vulnerable). Bu hayvanları korumak için acil önlemler alınması gerekmektedir.
+                </p>
+            </div>
+
+            <div class="animal-grid">
+                <div class="animal-card vulnerable mammal">
+                    <div class="animal-image" style="background-image: url('images/panda.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Dev Pandalar</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff9800;">Hassas (Vulnerable)</span></p>
+                        <p>Dev pandalar, Çin'in bambu ormanlarında yaşayan ve sevimli görünümleriyle dünya çapında sevilen hayvanlardır. WWF'nin sembolü olan pandalar, yoğun koruma çabaları sayesinde kritik durumdan hassas kategorisine yükselmiştir.</p>
+                        
+                        <h4>Yaşam Tarzı ve Beslenme</h4>
+                        <p>Pandalar günün 12-16 saatini yemek yiyerek geçirir ve günde 12-38 kg bambu tüketirler. Sindirim sistemleri bambuyu verimli işleyemediği için sürekli beslenmek zorundadırlar. %99'u bambudan oluşan diyetlerine rağmen karnivor sınıfına aitlerdir. Tek başlarına yaşamayı severler ve her pandanın kendi bölgesi vardır.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>En büyük tehdit habitat kaybıdır. Bambu ormanları tarım arazisi ve yerleşim yerleri için yok edilmektedir. Yavaş üreme oranları (2 yılda bir tek yavru) popülasyonun artmasını zorlaştırır. İklim değişikliği bambu büyümesini etkilemektedir. Ormanlardaki parçalanma nedeniyle izole kalan gruplar arasında genetik çeşitlilik azalmaktadır.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Kalan Birey Sayısı: Yaklaşık 1,864 yetişkin</li>
+                                <li>Habitat: Çin'in dağlık bambu ormanları</li>
+                                <li>Ağırlık: 70-125 kg</li>
+                                <li>Ömür: Vahşi doğada 15-20 yıl</li>
+                                <li>Koruma Durumu: 67 rezerv alanında korunuyor</li>
+                                <li>Başarı: Son 40 yılda %17 artış</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> Çin hükümeti pandaların korunması için yoğun çaba göstermektedir. Bambu ormanları korunuyor, üreme programları yürütülüyor ve koruma alanları genişletiliyor.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card endangered mammal">
+                    <div class="animal-image" style="background-image: url('images/kaplan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kaplanlar</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff5722;">Nesli Tehlikede (Endangered)</span></p>
+                        <p>Kaplanlar, Asya'da yaşayan en büyük kedi türüdür ve 6 alt türü vardır: Bengal kaplanı, Sibirya kaplanı, Sumatra kaplanı, Malaya kaplanı, Güney Çin kaplanı ve Hint-Çin kaplanı. 3 alt tür (Bali, Cava, Hazar kaplanı) son yüzyılda soyu tükenmiştir.</p>
+                        
+                        <h4>Ekosistem Önemi</h4>
+                        <p>Kaplanlar, bulundukları ekosistemlerin tepe yırtıcısıdır (apex predator). Otçul popülasyonlarını dengede tutarak ormanların sağlığını korurlar. Bir kaplanın yaşadığı alan, binlerce başka türe de ev sahipliği yapar. Kaplanları korumak, tüm ekosistemi korumak anlamına gelir.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Kaçak avcılık en büyük tehdittir. Geleneksel Asya tıbbında kullanılmak üzere kaplan parçaları (deri, kemik, organ) için avlanırlar. Habitat kaybı ve parçalanması nedeniyle yaşam alanları küçülmektedir. Av hayvanlarının azalması açlığa neden olmaktadır. İnsan-kaplan çatışmaları artan yerleşim yerleri nedeniyle yaşanmaktadır.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Kalan Birey Sayısı: Yaklaşık 3,900 vahşi kaplan</li>
+                                <li>100 yıl önceki sayı: 100,000+</li>
+                                <li>Habitat: Asya ormanları, çayırları, mangrovlar</li>
+                                <li>Ağırlık: 90-310 kg (alt türe göre)</li>
+                                <li>Bölge: 20-1,000 km² arası alan gerekir</li>
+                                <li>Yavru: 2-4 yavru, %50'si 2 yaşına ulaşamaz</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> WWF ve diğer kuruluşlar "Tx2" hedefiyle kaplan sayısını 2022'ye kadar iki katına çıkarmayı amaçlamıştı. Koruma alanları genişletildi ve kaçak avcılıkla mücadele güçlendirildi.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card critical mammal">
+                    <div class="animal-image" style="background-image: url('images/gergedan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Gergedanlar</h3>
+                        <p><strong>Durum:</strong> <span style="color: #d32f2f;">Kritik Tehlike (Critically Endangered)</span></p>
+                        <p>Gergedanlar, 5 tür halinde Afrika ve Asya'da yaşarlar: Beyaz gergedan, Siyah gergedan, Hint gergedanı, Java gergedanı ve Sumatra gergedanı. Her tür farklı tehdit seviyesindedir ve bazıları kritik durumda.</p>
+                        
+                        <h4>Boynuz Sorunu</h4>
+                        <p>Gergedan boynuzu keratin proteinden oluşur (insan tırnağıyla aynı madde). Geleneksel Asya tıbbında haksız inanışlar nedeniyle değerli kabul edilir. Kaçak avcılar bir boynuz için 400,000 dolara kadar ödeme yapmaktadır. Gergedanlar bu boynuz yüzünden sistematik olarak katledilmektedir. Boynuzun tıbbi bir faydası bilimsel olarak kanıtlanmamıştır.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Kaçak avcılık en büyük tehdittir. Her 8 saatte bir gergedan öldürülmektedir. Habitat kaybı ve insan yerleşimleri yaşam alanlarını daraltıyor. İklim değişikliği su kaynaklarını etkiliyor. Savaşlar ve istikrarsızlık koruma çabalarını zorlaştırıyor. Düşük üreme oranı (3-5 yılda bir yavru) popülasyon artışını yavaşlatıyor.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Java Gergedanı: 72 birey (en tehlikede)</li>
+                                <li>Sumatra Gergedanı: 80 birey</li>
+                                <li>Siyah Gergedan: 5,630 birey</li>
+                                <li>Hint Gergedanı: 3,700 birey</li>
+                                <li>Beyaz Gergedan: 18,000 birey</li>
+                                <li>Ağırlık: 800-3,600 kg (türe göre)</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> Silahlı koruma birlikleri 7/24 gergedanları koruyor. Boynuzlar kesilerek kaçak avcılık caydırılmaya çalışılıyor. Üreme programları ve güvenli rezervler oluşturuluyor.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <div class="animal-image" style="background-image: url('images/denizkaplumbağası.jpeg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Deniz Kaplumbağaları</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff5722;">Nesli Tehlikede (Endangered)</span></p>
+                        <p>7 tür deniz kaplumbağası vardır ve hepsi tehdit altındadır: Yeşil kaplumbağa, Iri Kafa, Deri Sırtlı, Yeşilden, Hawksbill, Olive Ridley ve Kemps Ridley. Bu antik yaratıklar 200 milyon yıldır okyanuslarımızda yaşamaktadır.</p>
+                        
+                        <h4>Okyanusun Bekçileri</h4>
+                        <p>Deniz kaplumbağaları deniz ekosisteminde kritik rol oynar. Yeşil kaplumbağalar deniz çayırlarını otlatarak sağlıklı tutar. Hawksbill'ler mercan resiflerindeki süngerlerle beslenir ve resif sağlığını korur. Deri sırtlı kaplumbağalar denizanası popülasyonunu kontrol eder. Kumlu plajlara besin maddesi taşırlar.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Plastik kirliliği en büyük tehditlerden biridir - poşetleri denizanasıyla karıştırıp yerler ve boğulurlar. Balık ağlarına takılma nedeniyle binlercesi her yıl ölür. Yuva alanlarının (plajlar) kaybı ve turizm faaliyetleri üremeyi engelliyor. Yumurtaları ve etleri için yasadışı avlanma devam ediyor. Işık kirliliği yavruları denize gitmekte şaşırtıyor.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Yaşam süresi: 50-100 yıl</li>
+                                <li>Yumurta: 50-200 yumurta/yuva</li>
+                                <li>Yavru hayatta kalma: 1/1000 yetişkinliğe ulaşır</li>
+                                <li>Göç: 15,000 km'ye kadar yol alabilir</li>
+                                <li>Dalış derinliği: 1,000 metreye kadar</li>
+                                <li>Plastik kurbanı: Milyonlarcası plastik nedeniyle ölür</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> Yuvalama plajları korunuyor ve izleniyor. Balıkçıların ağlara kaplumbağa kaçış cihazı takması zorunlu hale getiriliyor. Plastik kirliliğini azaltma kampanyaları yürütülüyor.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card endangered mammal">
+                    <div class="animal-image" style="background-image: url('images/goril.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Goriller</h3>
+                        <p><strong>Durum:</strong> <span style="color: #d32f2f;">Kritik Tehlike (Critically Endangered)</span></p>
+                        <p>Goriller, Afrika'nın tropikal ormanlarında yaşayan ve insanlara genetik olarak en yakın primatlardan biridir (%98.3 DNA benzerliği). 2 ana tür vardır: Doğu gorilleri ve Batı gorilleri. Dağ gorilleri en tehdit altında olan alt türdür.</p>
+                        
+                        <h4>Aile Bağları ve Zeka</h4>
+                        <p>Goriller 5-30 bireyli aileler halinde yaşar. Gümüş sırtlı erkek (silverback) aileye liderlik eder. Güçlü sosyal bağları vardır ve yas tutarlar. İşaret dili öğrenebilir ve binlerce kelime kavrayabilirler. Araç kullanımı gösterirler. Duygusal derinliğe sahiptirler - sevgi, üzüntü, öfke hissederler.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Habitat kaybı en ciddi tehdittir. Tropik ormanlar tarım ve madencilik için yok edilmektedir. Kaçak avcılık devam ediyor - et için veya evcil hayvan ticareti için avlanıyorlar. Savaşlar ve çatışmalar koruma çabalarını engelliyor. Hastalıklar (özellikle Ebola virüsü) popülasyonları yok ediyor. İnsan hastalıklarına karşı savunmasızdırlar - turistlerden bile grip kapabilirler.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Dağ Gorilleri: Sadece 1,063 birey kaldı</li>
+                                <li>Cross River Gorilleri: 250-300 birey</li>
+                                <li>Ağırlık: Erkekler 160-200 kg</li>
+                                <li>Ömür: 35-40 yıl</li>
+                                <li>Habitat: Orta Afrika yağmur ormanları</li>
+                                <li>Beslenme: %85 bitki, meyve, yaprak</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> Ulusal parklar ve rezervler korunuyor. Dian Fossey'nin çalışmaları dağ gorillerinin korunmasında çığır açtı. Eko-turizm geliri koruma fonlarına aktarılıyor. Veteriner ekipleri gorilleri takip ediyor.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card endangered marine">
+                    <div class="animal-image" style="background-image: url('images/balina.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Mavi Balinalar</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff5722;">Nesli Tehlikede (Endangered)</span></p>
+                        <p>Mavi balinalar, dünya üzerinde yaşamış en büyük hayvanlardır - dinozorlardan bile büyük! 30 metreye kadar uzunlukta ve 200 tona kadar ağırlıkta olabilirler. Kalpleri küçük bir araba büyüklüğündedir ve km uzaktan duyulabilen sesler çıkarırlar.</p>
+                        
+                        <h4>Okyanus Devleri</h4>
+                        <p>Mavi balinalar, kril adı verilen küçük kabuklularla beslenir ve günde 4 ton kril tüketebilir. 160 km mesafeden iletişim kurabilirler. 40 km/s hızla yüzebilirler. Tek bir nefes alışverişinde 5,000 litre hava değiştirebilirler. 90 dakika nefeslerini tutabilirler. Ortalama 80-90 yıl yaşarlar, bazıları 110 yaşına ulaşır.</p>
+
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>20. yüzyılda ticari balina avcılığı neredeyse soyu tüketti. 1900'de 200,000+ birey varken, 1960'larda sadece 360 birey kalmıştı. Gemi çarpmaları büyük tehdit oluşturur (deniz trafiğinin yoğun olduğu bölgelerde). Deniz kirliliği ve kimyasal atıklar sağlıklarını etkiliyor. Okyanus gürültüsü iletişimlerini ve navigasyonlarını bozuyor. İklim değişikliği kril popülasyonlarını etkiliyor.</p>
+
+                        <div class="info-box">
+                            <h5>Durum ve Bilgiler</h5>
+                            <ul>
+                                <li>Kalan Birey Sayısı: 10,000-25,000</li>
+                                <li>1960'lardaki sayı: Sadece 360 birey</li>
+                                <li>Uzunluk: 25-30 metre</li>
+                                <li>Ağırlık: 100-200 ton</li>
+                                <li>Kalp ağırlığı: 180 kg</li>
+                                <li>Yavru: 6-7 metre boyunda doğar</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma Çabaları:</strong> 1966'dan beri ticari avlanma yasaklandı. Deniz koruma alanları oluşturuldu. Gemi rotaları değiştirilerek çarpma riski azaltılıyor. Uluslararası işbirliği ile popülasyonlar yavaşça toparlanıyor.</p>
+                    </div>
+                </div>
+            
+                <div class="animal-card critical mammal">
+                    <div class="animal-image" style="background-image: url('images/orangutan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Orangutan</h3>
+                        <p><strong>Durum:</strong> <span style="color: #d32f2f;">Kritik Tehlike (Critically Endangered)</span></p>
+                        <p>Orangutanlar, Asya'nın tek büyük maymunudur. "Orman adamı" anlamına gelir. Endonezya ve Malezya'da sadece Borneo ve Sumatra adalarında yaşarlar. İnanılmaz zekadadırlar ve %97 DNA'ları insanlarla aynıdır.</p>
+                        
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Palm yağı plantasyonları için ormanların %80'i yok edildi. Her yıl 2000-3000 orangutan habitat kaybından ölüyor. Yavru kaçakçılığı (anneleri öldürülüp yavruları satılıyor). İklim değişikliği meyve ağaçlarını etkiliyor. Yangınlar habitatları yok ediyor.</p>
+
+                        <div class="info-box">
+                            <h5>Orangutan Bilgileri</h5>
+                            <ul>
+                                <li>Kalan: Sumatra 14,000, Borneo 104,000</li>
+                                <li>Habitat: Endonezya ve Malezya yağmur ormanları</li>
+                                <li>Özellik: Ağaç yaşamına en uygun maymun</li>
+                                <li>Zeka: Alet kullanır, problem çözebilir</li>
+                                <li>Tehdit: Palm yağı endüstrisi #1</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma:</strong> Palm yağı içermeyen ürünler tercih edin. WWF ve Orangutan Foundation'ı destekleyin.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card endangered mammal">
+                    <div class="animal-image" style="background-image: url('images/kar-leopari.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kar Leoparı</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff5722;">Nesli Tehlikede (Endangered)</span></p>
+                        <p>Kar leoparları, "dağların hayaleti" olarak bilinir. Orta Asya'nın yüksek dağlarında yaşarlar. Kalın kürkü ve uzun kuyruğu ile soğuğa uyum sağlamıştır. Çok nadir görülürler.</p>
+                        
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Güzel kürkü için kaçak avcılık. Çobanlar av hayvanlarını öldürdüğü için intikam alıyor. İklim değişikliği habitatı yukarı itiyor. Av hayvanlarının (dağ keçisi, koyun) azalması. İnsan yerleşimleri dağlara yayılıyor.</p>
+
+                        <div class="info-box">
+                            <h5>Kar Leoparı Bilgileri</h5>
+                            <ul>
+                                <li>Kalan: 4,000-6,500 vahşi birey</li>
+                                <li>Habitat: 3,000-4,500 m yükseklikte dağlar</li>
+                                <li>Alan: 12 ülke (Himalaya bölgesi)</li>
+                                <li>Özellik: 15 metre uzağa sıçrayabilir</li>
+                                <li>Kuyruk: 80-100 cm (dengeleyici)</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma:</strong> Snow Leopard Trust organizasyonunu destekleyin. Yerel çobanlara destek programları.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card vulnerable marine">
+                    <div class="animal-image" style="background-image: url('images/yunus.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Yunus</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff9800;">Hassas (Vulnerable) - bazı türler kritik</span></p>
+                        <p>Yunuslar, okyanus memelilerinin en zeki ve sosyal olanlarıdır. 40'tan fazla tür vardır. Balıkçı ağlarında, kirlilikte ve aşırı avlanmadan etkileniyorlar. Bazı nehir yunusları neredeyse yok oldu.</p>
+                        
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>Balıkçı ağlarında boğulma (yılda 300,000+ yunus). Plastik kirliliği okyanuslarda. Gürültü kirliliği (sonar sistemleri yunus iletişimini bozuyor). Deniz trafiği artışı. Av balıklarının azalması. Bazı ülkelerde hala avlanıyor.</p>
+
+                        <div class="info-box">
+                            <h5>Yunus Bilgileri</h5>
+                            <ul>
+                                <li>Popülasyon: Türe göre değişken</li>
+                                <li>Habitat: Tüm okyanuslar ve bazı nehirler</li>
+                                <li>Zeka: Kendini aynada tanır</li>
+                                <li>İletişim: Heceler ve "isimler" kullanır</li>
+                                <li>Tehdit: Balıkçı ağları #1 neden</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma:</strong> Plastik kullanımını azaltın. Sürdürülebilir balık tüketin. Oceana ve Sea Shepherd'ı destekleyin.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card vulnerable mammal">
+                    <div class="animal-image" style="background-image: url('images/kutup-ayisi.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kutup Ayısı</h3>
+                        <p><strong>Durum:</strong> <span style="color: #ff9800;">Hassas (Vulnerable)</span></p>
+                        <p>Kutup ayıları, Arktik'in en büyük yırtıcısıdır. Buzullar üzerinde yaşar ve fok avlar. Beyaz kürkü aslında şeffaftır (içi boş tüyler ısıyı tutar). İklim değişikliğinin #1 sembolüdür.</p>
+                        
+                        <h4>Tehdit Faktörleri</h4>
+                        <p>İklim değişikliği deniz buzullarını erİtiyor - ayılar avlanmak için buzullara ihtiyaç duyar. Buzul sezonu her 10 yılda 3 hafta kısalıyor. Açlıktan ölen ayı sayısı artıyor. Kirlilik toksinler vücutlarında biriikiyor. Petrol sondajı habitatı bozuyor.</p>
+
+                        <div class="info-box">
+                            <h5>Kutup Ayısı Bilgileri</h5>
+                            <ul>
+                                <li>Kalan: 22,000-31,000 vahşi birey</li>
+                                <li>Habitat: Arktik deniz buzulları</li>
+                                <li>Ağırlık: 300-700 kg (en büyük kara yırtıcısı)</li>
+                                <li>Yüzme: 100 km+ yüzebilir</li>
+                                <li>Tehdit: İklim değişikliği #1</li>
+                                <li>Tahmin: 2050'de %30 azalma bekleniyor</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Koruma:</strong> Karbon ayak izinizi azaltın. Polar Bears International'ı destekleyin. İklim politikalarını savunun.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="care-tips">
+                <h3>Nasıl Yardımcı Olabilirsiniz?</h3>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <h4>Koruma Kuruluşlarını Destekleyin</h4>
+                        <p>WWF, IFAW, Born Free gibi organizasyonlara bağış yapın. Koruma projelerine sponsor olun veya gönüllü katılın.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Tek Kullanımlık Plastik Kullanmayın</h4>
+                        <p>Plastik poşet, pipet, şişe kullanımını azaltın. Deniz kaplumbağaları ve diğer deniz canlıları için okyanus kirliliğini önleyin.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Sürdürülebilir Ürünler Tercih Edin</h4>
+                        <p>Palmiye yağı içermeyen, sürdürülebilir kaynaklardan üretilen, sertifikalı ürünler satın alın. Habitat tahribatına katkıda bulunmayın.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Vahşi Hayvan Ürünleri Almayın</h4>
+                        <p>Fildişi, kürk, deri, kaçak hayvan satışlarına karşı çıkın. Yasadışı ticareti teşvik etmeyin ve bildirin.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Farkındalık Yaratın</h4>
+                        <p>Sosyal medyada paylaşım yapın. Ailenize, arkadaşlarınıza anlatın. Okullarda sunumlar yapın. Bilgi güçtür!</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Yerel Koruma Projelerine Katılın</h4>
+                        <p>Ağaç dikme, plaj temizliği, habitat restorasyonu gibi yerel projelerde gönüllü olarak çalışın.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem; padding: 2rem; background: #fff3cd; border-radius: 10px; border-left: 5px solid #ffc107;">
+                <h3 style="color: #856404; margin-bottom: 1rem;">Zaman Daralıyor!</h3>
+                <p style="color: #666; line-height: 1.8;">
+                    Bilim insanları bunun "6. Kitle Yok Oluş" olayı olduğunu söylüyor. İnsanlık tarihi boyunca hiç bu kadar hızlı tür kaybı yaşanmamıştı. Her geçen gün yeni bir tür yok oluyor veya tehlike altına giriyor. Ancak henüz çok geç değil! Birlikte hareket edersek, bu muhteşem yaratıkları geleceğe taşıyabiliriz. Her küçük eylem önemlidir. Bugün harekete geçin! 🌍💚
+                </p>
+            </div>
+
+            <!-- DID YOU KNOW SECTION -->
+            <div class="did-you-know">
+                <h3>🤔 Biliyor muydun? 🤔</h3>
+                <div class="fact-container">
+                    <p class="fact-text">Dünyada her gün yaklaşık 150 tür yok oluyor. Bu doğal yok oluş hızının 1000 katıdır! 😢</p>
+                </div>
+                <button class="new-fact-btn">Yeni Bilgi Göster 🎲</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hayvanlar Dünyası. Tüm hakları saklıdır.</p>
+            <p style="margin-top: 0.5rem;">Hayvanları korumak, geleceği korumaktır. 🌍💚</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="facts.js"></script>
+</body>
+</html>

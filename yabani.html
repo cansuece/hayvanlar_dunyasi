@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yabani Hayvanlar - Hayvanlar Dünyası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Hayvanlar Dünyası</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="evcil.html">Evcil Hayvanlar</a></li>
+                        <li><a href="yabani.html">Yabani Hayvanlar</a></li>
+                        <li><a href="tehlike.html">Tehlike Altındakiler</a></li>
+                        <li><a href="koruma.html">Hayvan Hakları</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h2>Yabani Hayvanlar</h2>
+            <p>Doğal ortamlarında özgürce yaşayan vahşi hayvanların büyüleyici dünyası</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container page-content">
+            <!-- Filter Section -->
+            <div class="filter-container">
+                <h3>🔍 Hayvan Türüne Göre Filtrele</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tümü</button>
+                    <button class="filter-btn" data-filter="carnivore" data-tooltip="Etçil hayvanlar">Etçiller</button>
+                    <button class="filter-btn" data-filter="herbivore" data-tooltip="Otçul hayvanlar">Otçullar</button>
+                    <button class="filter-btn" data-filter="omnivore" data-tooltip="Hepçil hayvanlar">Hepçiller</button>
+                    <button class="filter-btn" data-filter="mammal" data-tooltip="Memeli hayvanlar">Memeliler</button>
+                    <button class="filter-btn" data-filter="bird" data-tooltip="Kuş türleri">Kuşlar</button>
+                </div>
+            </div>
+
+            <div class="intro-section">
+                <h3>Yabani Hayvanlar Nedir?</h3>
+                <p>
+                    Yabani hayvanlar, doğal ortamlarında özgürce yaşayan ve evcilleştirilmemiş hayvanlardır. 
+                    Ekosistemde hayati roller üstlenirler ve doğal dengenin korunmasında kritik öneme sahiptirler. 
+                    Avlanma, beslenme ve üreme döngüleri tamamen doğal içgüdüleriyle şekillenir. 
+                    Bu hayvanlar, insan müdahalesi olmadan kendi başlarına hayatta kalabilme yeteneğine sahiptirler 
+                    ve her biri kendi habitatında benzersiz adaptasyonlar geliştirmiştir.
+                </p>
+            </div>
+
+            <div class="animal-grid">
+                <div class="animal-card carnivore mammal">
+                    <div class="animal-image" style="background-image: url('images/aslan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Aslanlar</h3>
+                        <p>Aslanlar, "ormanların kralı" olarak bilinir ve Afrika'nın savana ekosisteminin zirvesindeki yırtıcılardır. Sürü halinde yaşayan tek kedi türüdür ve bu sosyal yapı onları diğer büyük kedilerden ayırır.</p>
+                        
+                        <h4>Sosyal Yapı ve Yaşam</h4>
+                        <p>Bir aslan sürüsü (pride) genellikle 3-4 erkek, çok sayıda dişi ve yavrulardan oluşur. Erkekler bölgeyi korur ve savunur, dişiler ise avlanır ve yavru bakımını üstlenir. Erkek aslanların yelesinin rengi, yaşı ve sağlık durumunu gösterir. Koyu renkli yele, güçlü ve olgun bir erkeği işaret eder.</p>
+
+                        <h4>Beslenme ve Avlanma</h4>
+                        <p>Aslanlar karnivordur (etçildir) ve büyük otçulları avlar: zebra, antilop, bufalo, zürafalar. Dişiler genellikle grup halinde av yapar ve koordineli taktikler kullanır. Günde 5-7 kg et tüketirler, ancak tek seferde 30 kg'a kadar yiyebilirler. Günün büyük kısmını dinlenerek geçirirler (günde 16-20 saat uyurlar).</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Afrika savanaları ve açık otlaklar</li>
+                                <li>Ağırlık: Erkekler 190-225 kg, dişiler 130-180 kg</li>
+                                <li>Hız: 80 km/s'ye kadar koşabilir (kısa mesafede)</li>
+                                <li>Kükreme sesi 8 km mesafeden duyulabilir</li>
+                                <li>Bölge: 100-400 km² alanda yaşarlar</li>
+                                <li>Gece görüşleri insanlardan 6 kat daha iyi</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 10-14 yıl, koruma altında 20 yıla kadar yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card herbivore mammal">
+                    <div class="animal-image" style="background-image: url('images/fil.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Filler</h3>
+                        <p>Filler, karada yaşayan en büyük memelilerdir ve olağanüstü zeka, hafıza ve duygusal derinliğe sahiptirler. Afrika fili ve Asya fili olmak üzere iki ana türleri vardır.</p>
+                        
+                        <h4>Zeka ve Hafıza</h4>
+                        <p>Filler, hayvanlar alemindeki en zeki canlılardan biridir. Onlarca yıl önceki olayları hatırlayabilir, aynada kendilerini tanıyabilir ve yas tutarlar. Karmaşık sosyal ilişkileri vardır ve sürü içinde güçlü bağlar kurarlar. Yaşlı dişi fil (matriark) sürüye liderlik eder ve bilgi birikimini aktarır.</p>
+
+                        <h4>Beslenme ve Hortum</h4>
+                        <p>Filler otçuldur (herbivordur) ve günde 150-200 kg bitki, ot, yaprak, meyve ve kabuk tüketirler. Günde 100-200 litre su içerler. Hortumları 40,000'den fazla kas içerir ve inanılmaz hassasiyet sağlar - hem çok ağır şeyleri kaldırabilir hem de çok küçük nesneleri tutabilir.</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Savanalar, ormanlar, bataklıklar</li>
+                                <li>Ağırlık: Afrika fili 6000 kg, Asya fili 4000 kg</li>
+                                <li>Boy: 3-4 metre yüksekliğinde</li>
+                                <li>Dişleri: Fildişi hayat boyu büyür (3 metre uzunlukta olabilir)</li>
+                                <li>İletişim: Infrasonik seslerle km öteden haberleşir</li>
+                                <li>Hamilelik: 22 ay (en uzun hamilelik süresi)</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 60-70 yıl yaşarlar.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore mammal">
+                    <div class="animal-image" style="background-image: url('images/kurt.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kurtlar</h3>
+                        <p>Kurtlar, köpeklerin ataları olan ve karmaşık sosyal yapılara sahip yırtıcılardır. Kuzey yarımkürenin geniş bir bölgesinde yaşarlar ve ekosistemde tepe yırtıcı (apex predator) konumundadırlar.</p>
+                        
+                        <h4>Sürü Dinamiği</h4>
+                        <p>Bir kurt sürüsü genellikle alfa çifti (dominant erkek ve dişi), yavrular ve genç bireylerden oluşur. Sürü içinde katı bir hiyerarşi vardır. Alfa çift liderlik eder, çoğalır ve karar alır. Tüm sürü üyeleri yavruların bakımına katılır. Ululama sesleri ile bölge işaretler ve sürü üyeleriyle iletişim kurarlar.</p>
+
+                        <h4>Av Stratejileri</h4>
+                        <p>Kurtlar, geyik, elk, moose, karıbu gibi büyük otçulları avlar. Koordineli grup avı yaparlar ve güçlü dayanıklılıkları sayesinde avlarını saatlerce takip edebilirler. 60 km/s hızla koşabilir, ancak asıl güçleri dayanıklılıktır. Günde 2-5 kg et yerler, ama tek seferde 9 kg'a kadar tüketebilirler.</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Ormanlar, tundra, dağlar, step</li>
+                                <li>Ağırlık: 30-80 kg (türe göre değişir)</li>
+                                <li>Boy: Omuz yüksekliği 60-85 cm</li>
+                                <li>Bölge: 130-13,000 km² arası geniş alanlar</li>
+                                <li>İletişim: Ululama, hırıltı, beden dili</li>
+                                <li>Koku alma duyusu 100 kat daha güçlü</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 6-8 yıl, koruma altında 15 yıl yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore bird">
+                    <div class="animal-image" style="background-image: url('images/kartal.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kartallar</h3>
+                        <p>Kartallar, gökyüzünün en güçlü ve görkemli yırtıcı kuşlarıdır. 60'tan fazla kartal türü vardır ve her biri kendi habitatına özgü adaptasyonlara sahiptir. Kel kartal, altın kartal ve deniz kartalı en bilinenleridir.</p>
+                        
+                        <h4>Olağanüstü Görüş</h4>
+                        <p>Kartalların görüş keskinliği insanlardan 4-8 kat daha iyidir. 3 km yükseklikten yerdeki bir tavşanı görebilirler. Hem ileri hem de yanlara bakabilirler (310 derece görüş açısı). UV ışık görebilirler. Gözlerinde iki fovea vardır (insanlarda bir) - bu da hem uzak hem yakın mesafeyi aynı anda net görmelerini sağlar.</p>
+
+                        <h4>Avlanma ve Uçuş</h4>
+                        <p>Kartallar balık, küçük memeliler, yılanlar ve diğer kuşları avlar. Dalış sırasında 240-320 km/s hıza ulaşabilirler. Güçlü pençeleri ile avlarını yakalar - pençelerinin kavrıs gücü 400 psi'dir (pit bull köpeğin ısırık gücünden fazla!). Saatlerce planör uçuş yapabilir, enerji harcamadan hava akımlarını kullanırlar.</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Dağlar, kayalıklar, ormanlar, kıyılar</li>
+                                <li>Kanat açıklığı: 1.8-2.5 metre</li>
+                                <li>Ağırlık: 3-6.5 kg (türe göre değişir)</li>
+                                <li>Yuva: Yüksek kayalık ve ağaç tepelerinde</li>
+                                <li>Çiftleşme: Ömür boyu tek eş (monogam)</li>
+                                <li>Yumurta: 1-3 yumurta, 35-45 gün kuluçka</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 20-30 yıl, koruma altında 50 yıla kadar yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card omnivore mammal">
+                    <div class="animal-image" style="background-image: url('images/ayi.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Ayılar</h3>
+                        <p>Ayılar, büyük ve güçlü memelilerdir. 8 farklı tür vardır: boz ayı, kutup ayısı, siyah ayı, panda, güneş ayısı, tembel ayı, gözlüklü ayı ve Asya siyah ayısı. Her tür farklı habitatlarda yaşar ve farklı beslenir.</p>
+                        
+                        <h4>Beslenme ve Hibernasyon</h4>
+                        <p>Ayılar omnivor (hepçil) hayvanlardır - hem et hem de bitki yerler. Boz ayılar %75 bitki, %25 et yer. Balık, böcekler, kökler, meyveler, bal ve küçük memelilerle beslenirler. Gün içinde 20,000 kalori tüketebilirler (özellikle kış uykusu öncesi). Kış uykusuna (hibernasyon) yatarlar ve bu sürede kalp atışları yavaşlar, vücut sıcaklıkları düşer.</p>
+
+                        <h4>Güç ve Yetenekler</h4>
+                        <p>Ayılar inanılmaz güçlüdür - bir pençe darbesiyle bir insanı veya geyiği öldürebilirler. 50 km/s hızla koşabilirler (insan ortalama 25 km/s). Mükemmel yüzücülerdir ve ağaca tırmanabilirler. Koku alma duyuları köpeklerden 7 kat daha iyi - 30 km uzaktan kokuyu algılayabilirler.</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Ormanlar, dağlar, tundra, buz sahası</li>
+                                <li>Ağırlık: 50-750 kg (türe göre farklılık)</li>
+                                <li>Boy: Ayakta 1.5-3 metre yükseklikte</li>
+                                <li>Tek başlarına yaşar (kutup ayıları hariç)</li>
+                                <li>Kış uykusu: 5-8 ay sürebilir</li>
+                                <li>Yavru: 1-4 yavru, anne 2 yıl bakım yapar</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 20-30 yıl, koruma altında 40 yıla kadar yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card herbivore mammal">
+                    <div class="animal-image" style="background-image: url('images/zurafa.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Zürafalar</h3>
+                        <p>Zürafalar, karada yaşayan en uzun hayvanlardır ve Afrika savanalarının ikonik sembollerindendir. Uzun boyunları ve benzersiz leke desenleriyle tanınırlar. 4 farklı zürafa türü vardır.</p>
+                        
+                        <h4>Anatomik Mucizeler</h4>
+                        <p>5-6 metre boylarına rağmen, zürafaların boynu sadece 7 kemikten oluşur (insan boynuyla aynı sayıda!). Her kemik sadece çok uzundur (25-30 cm). Kalpleri 11 kg ağırlığında ve 2 metre yüksekliğe kan pompalar. Kan basınçları insanlardan 2-3 kat yüksektir. Uzun boyunları sayesinde diğer otçulların ulaşamadığı yüksek ağaç yapraklarına erişirler.</p>
+
+                        <h4>Beslenme ve Yaşam Tarzı</h4>
+                        <p>Zürafalar otçuldur ve özellikle akasya ağacı yapraklarını severler. Günde 30-40 kg yaprak yerler. 45 cm uzunluğundaki dilleriyle dikenli dalları kavrarlar. Günde sadece 5-30 dakika uyurlar (genellikle ayakta). Çok az su içerler - haftada 1-2 kez, çünkü yedikleri yapraklar yeterli nem sağlar.</p>
+
+                        <div class="info-box">
+                            <h5>Yaşam Alanı ve Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Afrika savanaları, açık ormanlar</li>
+                                <li>Ağırlık: Erkekler 1200 kg, dişiler 830 kg</li>
+                                <li>Boy: 4.3-5.7 metre yükseklikte</li>
+                                <li>Hız: 55-60 km/s koşabilir</li>
+                                <li>Her zürafanın leke deseni benzersizdir</li>
+                                <li>Yavru: 1.8 metre boyunda doğar</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 25 yıl, koruma altında 28 yıla kadar yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore mammal">
+                    <div class="animal-image" style="background-image: url('images/guepard.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Guepard (Çita)</h3>
+                        <p>Guepardlar, dünyanın en hızlı kara hayvanıdır. Zarif ve aerodinamik vücutları ile 110-120 km/s hıza ulaşabilirler. Afrika'nın açık savanalarında yaşarlar ve hız avantajlarını kullanarak avlanırlar.</p>
+                        
+                        <h4>İnanılmaz Hız</h4>
+                        <p>Guepardlar sadece 3 saniyede 0'dan 100 km/s hıza ulaşabilir! Ancak bu hızı sadece 20-30 saniye sürdürebilirler. Uzun kuyrukları denge sağlar. Vücutları hafiftir (45-65 kg) ve kemikleri diğer büyük kedilerden daha incedir.</p>
+
+                        <h4>Av Stratejisi</h4>
+                        <p>Geyik, antilop ve tavşan avlarlar. Önce avlarına gizlice yaklaşır, sonra kısa ve hızlı bir takip başlatırlar. %50 başarı oranı vardır. Avı boğmak yerine boğazını sıkarak hava yolunu kapatırlar.</p>
+
+                        <div class="info-box">
+                            <h5>Guepard Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Afrika savanaları</li>
+                                <li>Ağırlık: 45-65 kg</li>
+                                <li>Hız: 110-120 km/s (en hızlı kara hayvanı!)</li>
+                                <li>İvmelenme: 0-100 km/s 3 saniyede</li>
+                                <li>Özellik: Tırnakları geri çekilmez (köpek gibi)</li>
+                                <li>Sosyal: Erkekler grup, dişiler yalnız</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 10-12 yıl, koruma altında 17 yıl yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore mammal">
+                    <div class="animal-image" style="background-image: url('images/kaplan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kaplan</h3>
+                        <p>Kaplanlar, dünyanın en büyük kedi türüdür. Turuncu-siyah çizgileriyle tanınırlar ve her kaplanın deseni benzersizdir. Güçlü ve yalnız yaşayan avcılardır. 6 alt türü vardır.</p>
+                        
+                        <h4>Güç ve Avlanma</h4>
+                        <p>Kaplanlar inanılmaz güçlüdür - kendi ağırlıklarının 2 katını taşıyabilirler. Gece avcısıdırlar ve mükemmel gece görüşleri vardır. Geyik, domuz, su mandası gibi büyük hayvanları avlarlar. Tek seferde 40 kg et yiyebilirler.</p>
+
+                        <h4>Yüzme Yeteneği</h4>
+                        <p>Kaplanlar yüzmeyi seven nadir kedilerdendir. Günün sıcak saatlerinde sularda serinlerler. 6 km'ye kadar yüzebilirler. Bengal kaplanları mangrov ormanlarında yaşar ve balık avlar!</p>
+
+                        <div class="info-box">
+                            <h5>Kaplan Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Asya ormanları ve çayırları</li>
+                                <li>Ağırlık: 90-310 kg (alt türe göre)</li>
+                                <li>Boy: 2-3.3 metre uzunluk</li>
+                                <li>Özellik: Her kaplanın deseni benzersizdir</li>
+                                <li>Bölge: 20-100 km² alan gerekir</li>
+                                <li>Durum: Tehlike altında (sadece 3,900 vahşi kaplan kaldı)</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 8-10 yıl, koruma altında 20-26 yıl yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card herbivore mammal">
+                    <div class="animal-image" style="background-image: url('images/zebra.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Zebra</h3>
+                        <p>Zebralar, siyah-beyaz çizgileriyle tanınan vahşi atlardır. Afrika savanalarında sürüler halinde yaşarlar. Her zebranın çizgi deseni parmak izi gibi benzersizdir. Sosyal ve hareketli hayvanlardır.</p>
+                        
+                        <h4>Neden Çizgili?</h4>
+                        <p>Çizgilerin birkaç işlevi vardır: Sinekleri uzak tutar (sinekler çizgileri sevmez), sürü içinde kamuflaj sağlar (yırtıcı tek bir zebrayı seçemez), sıcağı yansıtarak serinletir. Her zebra diğerlerini çizgilerinden tanır.</p>
+
+                        <h4>Sosyal Yaşam</h4>
+                        <p>Zebralar aile grupları (harem) halinde yaşar: 1 erkek, birkaç dişi ve yavruları. Gruplar birleşerek büyük sürüler oluşturur. Çok iyi koşuculardır (65 km/s) ve zikzak koşarak yırtıcılardan kaçarlar.</p>
+
+                        <div class="info-box">
+                            <h5>Zebra Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Afrika savanaları ve otlakları</li>
+                                <li>Ağırlık: 200-450 kg</li>
+                                <li>Hız: 65 km/s'ye kadar</li>
+                                <li>Beslenme: Ot, yaprak, kabuk</li>
+                                <li>Özellik: Her zebranın deseni benzersiz</li>
+                                <li>İletişim: Kişneme, havlama ve vücut dili</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 20-25 yıl yaşarlar.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card herbivore mammal">
+                    <div class="animal-image" style="background-image: url('images/kanguru.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Kanguru</h3>
+                        <p>Kangurular, Avustralya'nın sembolü olan keseli memelilerdir. Güçlü arka bacakları ile zıplayarak hareket ederler. Yavruları (joey) anne karnındaki kesede büyür. 60'tan fazla kanguru türü vardır.</p>
+                        
+                        <h4>Zıplama Yeteneği</h4>
+                        <p>Kangurular tek sıçramada 3 metre yüksekliğe ve 9 metre uzağa atlayabilir! 56 km/s hıza ulaşabilirler. Zıplamak enerji açısından verimlidir - hızlandıkça daha az enerji harcarlar. Kuyrukları denge için kullanılır.</p>
+
+                        <h4>Keseliler</h4>
+                        <p>Kanguru yavrusu doğduğunda sadece 2 cm uzunluğundadır! Anne karnına doğru tırmanır ve kesede 6-8 ay kalır. Kesede büyüdükten sonra dışarı çıkar ama tehlikede tekrar girer.</p>
+
+                        <div class="info-box">
+                            <h5>Kanguru Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Avustralya çayırları ve ormanları</li>
+                                <li>Ağırlık: 25-90 kg (türe göre)</li>
+                                <li>Boy: Ayakta 1.3-1.8 metre</li>
+                                <li>Hız: 56 km/s'ye kadar zıplayarak</li>
+                                <li>Özellik: Geri geri yürüyemezler</li>
+                                <li>Yüzme: Mükemmel yüzücüdürler</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 6-8 yıl, koruma altında 20-23 yıl yaşayabilirler.</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore">
+                    <div class="animal-image" style="background-image: url('images/timsah.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Timsah</h3>
+                        <p>Timsahlar, 200 milyon yıldır değişmeden yaşayan eski sürüngenlerdir. Hem karada hem suda yaşarlar. Dünyanın en güçlü ısırığına sahiptirler. 14 farklı timsah türü vardır.</p>
+                        
+                        <h4>Güçlü Avcılar</h4>
+                        <p>Timsahların ısırık gücü 2000-3700 psi'dir (köpekbalığından güçlü!). Ancak çenelerini açma kasları zayıftır - insan eli bir timsahın ağzını kapalı tutabilir. Suda saatte 32 km hıza ulaşabilirler. "Ölüm dönüşü" yaparak avlarını parçalarlar.</p>
+
+                        <h4>Yaşam Tarzı</h4>
+                        <p>Timsahlar soğukkanlıdır, güneşte ısınıp suda serinlerler. Çoğu zamanını hareketsiz bekleyerek geçirir. Aylarca yemek yemeden yaşayabilirler. Yavruları ağızlarında taşıyarak korurlar.</p>
+
+                        <div class="info-box">
+                            <h5>Timsah Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Tropikal nehirler, göller, bataklıklar</li>
+                                <li>Ağırlık: 400-1000 kg (tuzlu su timsahı)</li>
+                                <li>Uzunluk: 4-6 metre (bazı türler 7m+)</li>
+                                <li>Isırık gücü: 3700 psi (en güçlü!)</li>
+                                <li>Özellik: 100 yaşına kadar yaşayabilir</li>
+                                <li>Metabolizma: Çok yavaş, az yemek yer</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 70-100 yıl yaşarlar!</p>
+                    </div>
+                </div>
+
+                <div class="animal-card carnivore bird">
+                    <div class="animal-image" style="background-image: url('images/pelikan.jpg')">
+                    </div>
+                    <div class="animal-content">
+                        <h3>Pelikan</h3>
+                        <p>Pelikanlar, büyük gaga kesesine sahip su kuşlarıdır. 8 pelikan türü vardır ve hepsi balıkla beslenir. Grup halinde koordineli avlanırlar. Uçarken muhteşem görüntüler oluştururlar.</p>
+                        
+                        <h4>Gaga Kesesi</h4>
+                        <p>Pelikanların gaga kesesinde 13 litreye kadar su toplanabilir! Bu kese balık tutmak için kullanılır - suyla birlikte balığı yakalar, suyu boşaltır ve balığı yutar. Kese aynı zamanda serinlemek için de kullanılır.</p>
+
+                        <h4>Grup Avlanma</h4>
+                        <p>Pelikanlar genellikle grup halinde yarım daire oluşturarak balık sürüsünü sığ suya doğru iterler, sonra hep birlikte dalarlar. Havadan dalış yapan türler de vardır (kahverengi pelikan). Günde 1.5 kg balık yerler.</p>
+
+                        <div class="info-box">
+                            <h5>Pelikan Özellikleri</h5>
+                            <ul>
+                                <li>Habitat: Kıyılar, göller, nehir ağızları</li>
+                                <li>Ağırlık: 4-15 kg (türe göre)</li>
+                                <li>Kanat açıklığı: 2-3.6 metre</li>
+                                <li>Gaga: 30-50 cm uzunluğunda + kese</li>
+                                <li>Özellik: Grup halinde senkronize avlanır</li>
+                                <li>Uçuş: V formasyonunda uçarlar</li>
+                            </ul>
+                        </div>
+
+                        <p><strong>Ömür:</strong> Vahşi doğada 15-25 yıl, koruma altında 30+ yıl yaşayabilirler.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="care-tips">
+                <h3>Yabani Hayvanları Korumak İçin Neler Yapabiliriz?</h3>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <h4>Habitat Koruması</h4>
+                        <p>Doğal yaşam alanlarının korunmasını destekleyin. Orman tahribatına karşı çıkın ve çevre koruma projelerine destek verin.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Kaçak Avcılığa Hayır</h4>
+                        <p>Yaban hayatı ürünleri (fildişi, kürk, deri) satın almayın. Yasadışı ticareti teşvik eden davranışlardan kaçının.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Sürdürülebilir Yaşam</h4>
+                        <p>Plastik kullanımını azaltın, geri dönüşüm yapın ve çevre dostu ürünler tercih edin. İklim değişikliğiyle mücadeleye katkı sağlayın.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Eğitim ve Farkındalık</h4>
+                        <p>Yaban hayatı ve koruma hakkında bilgilenin. Çevrenizdekileri bilinçlendirin ve doğal yaşamın önemini anlatın.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Koruma Projelerini Destekleyin</h4>
+                        <p>WWF, IFAW gibi koruma organizasyonlarına bağış yapın veya gönüllü olarak çalışın.</p>
+                    </div>
+                    <div class="tip-card">
+                        <h4>Sorumlu Turizm</h4>
+                        <p>Doğa turlarında hayvanları rahatsız etmeyin. Etik safari ve gözlem turları tercih edin. Vahşi hayvanları beslemeyin veya dokunmayın.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DID YOU KNOW SECTION -->
+            <div class="did-you-know">
+                <h3>🤔 Biliyor muydun? 🤔</h3>
+                <div class="fact-container">
+                    <p class="fact-text">Guepard 3 saniyede 0'dan 100 km/s hıza ulaşabilir! Dünyanın en hızlı kara hayvanıdır. 🐆</p>
+                </div>
+                <button class="new-fact-btn">Yeni Bilgi Göster 🎲</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hayvanlar Dünyası. Tüm hakları saklıdır.</p>
+            <p style="margin-top: 0.5rem;">Hayvanları korumak, geleceği korumaktır. 🌍💚</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="facts.js"></script>
+</body>
+</html>
